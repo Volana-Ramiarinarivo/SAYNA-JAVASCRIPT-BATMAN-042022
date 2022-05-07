@@ -1,0 +1,52 @@
+:root{
+    --p-jaune:#ffff00;
+    --p-pousin:#f8f184;
+    --p-bleu:#19587d;
+    --p-grena:#b11313;
+    --p-sombre:#0d0e09;
+    --p-variation1:background-image: linear-gradient(to right top, #eddebf, #adc09f, #6aa191, #2c7e8b, #19587d);
+    --p-variation2:background-image: linear-gradient(to right top, #eddebf, #d3af83, #bb7f4f, #a34c26, #89000b);
+    --p-gris:#c4c4c4;
+    --p-noire:#000000;
+    --pp-blanc:#ffffff;
+}
+
+header{
+    background-image: url(/Assets/Illustrations/Game/Batgame1.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+
+}
+
+span{
+    text-decoration: none;
+    color: var(--pp-blanc);
+}
+
+.lien{
+    text-decoration: none;
+}
+
+main{
+    background-color: var(--p-noire);
+}
+
+.article{
+    color: var(--pp-blanc);
+}
+
+.list-group-item{
+    background-color: var(--p-gris);
+}
+.form-check{
+    background-color: var(--p-gris);
+    margin-right: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: var(--p-noire);
+    padding: 5%;
+    padding-bottom: 10%;
+}

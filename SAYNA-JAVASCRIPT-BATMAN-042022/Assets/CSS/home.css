@@ -1,0 +1,70 @@
+:root{
+    --p-jaune:#ffff00;
+    --p-pousin:#f8f184;
+    --p-bleu:#19587d;
+    --p-grena:#b11313;
+    --p-sombre:#0d0e09;
+    --p-variation1:background-image: linear-gradient(to right top, #eddebf, #adc09f, #6aa191, #2c7e8b, #19587d);
+    --p-variation2:background-image: linear-gradient(to right top, #eddebf, #d3af83, #bb7f4f, #a34c26, #89000b);
+    --p-gris:#c4c4c4;
+    --p-noire:#000000;
+    --pp-blanc:#ffffff;
+}
+
+#btn{
+    color: var(--p-variation2);
+}
+
+header{
+    background-image: url('/Assets/Illustrations/Home/Bathome1.png');
+    margin: auto;
+    height: 130vh;
+    background-repeat: no-repeat;
+    padding: 2% 5%;    
+}
+
+main{
+    background-color: var(--p-noire);
+}
+.article{
+    color: var(--pp-blanc);
+}
+span{
+    text-decoration: none;
+    color: var(--pp-blanc);
+}
+
+.lien{
+    text-decoration: none;
+}
+
+.contact {
+    background-color: #142731;
+    color: var(--pp-blanc);
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    min-height: 120vh;
+    border: 2px solid var(--p-sombre);
+    border-bottom: none;
+    border-top: none;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.contact input{
+    width: 850px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #C4C4C4;
+}
+.cardimage{
+    margin-right: -40px;
+}
+
+footer{
+    background-color: var(--p-noire);
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
